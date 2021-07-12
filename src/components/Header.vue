@@ -39,6 +39,9 @@ export default {
         display:flex;
         justify-content: space-around;
         align-items: center;
+        // height:90px;
+        margin-top: 60px;
+        background-color: white;
         ul{
             list-style:none;
             li{
