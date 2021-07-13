@@ -4,6 +4,7 @@
     <Main />
     <Section />
     <Footer />
+    <FooterSocialMedia />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Section from './components/Section.vue'
 import Footer from './components/Footer.vue'
+import FooterSocialMedia from './components/FooterSocialMedia.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Header,
     Main,
     Section,
-    Footer
+    Footer,
+    FooterSocialMedia
   }
 }
 </script>
