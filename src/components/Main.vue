@@ -38,5 +38,6 @@ export default {
 main {
   background-color: black;
   color: white;
+  
 }
 </style>
