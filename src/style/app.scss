@@ -1,0 +1,48 @@
+// Main style
+
+@import './font';
+@import './colors';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', serif;
+}
+
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-2 {
+  width: calc(100% / 6);
+}
+
+.px-15 {
+  padding: 0 15px;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
